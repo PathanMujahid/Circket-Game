@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: green;
+  color: white;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.addPlayers {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.team1addplayers {
+  align-items: center;
+  float: left;
+  width: 40%;
+}
+.team2addplayers {
+  display: block;
+  align-items: center;
+  width: 40%;
+  float: right;
+}
+
+.teamList {
+  display: flex;
+  background-color: green;
+}
+.addPlayers {
+  display: flex;
+  justify-content: center;
+}
+input {
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  margin: 5px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE htmaddPlayersl>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>circket Game</title>
+</head>
+<link rel="stylesheet" href="style.css" />
+
+<body>
+  <div>
+
+    <div class="addPlayers" id="addPlayers">
+      <h1>Circket Game</h1>
+      <h3>Add players Name</h3>
+
+
+      <div class="team1addplayers" id="team1addplayers">
+        <h2>Team A</h2>
+        <input type="text" placeholder="Enter Player 1 Name" id="teamAp1" required />
+        <input type="text" placeholder="Enter Player 2 Name" id="teamAp2" required />
+        <input type="text" placeholder="Enter Player 3 Name" id="teamAp3" required />
+        <input type="text" placeholder="Enter Player 4 Name" id="teamAp4" required />
+      </div>
+
+      <div class="team2addplayers" id="team2addplayers">
+        <h2>Team B</h2>
+        <input type="text" placeholder="Enter Player 1 Name" id="teamBp1" required />
+        <input type="text" placeholder="Enter Player 2 Name" id="teamBp2" required />
+        <input type="text" placeholder="Enter Player 3 Name" id="teamBp3" required />
+        <input type="text" placeholder="Enter Player 4 Name" id="teamBp4" required />
+      </div>
+
+
+      <div class="btn_addPlayers">
+        <button class="btn_addPlayers" id="btn_addPlayers" onclick="btnSubmitplayes()">
+          Add Players
+        </button>
+      </div>
+
+    </div>
+    <div style="display: none;" id="teamList" class="teamList">
+
+      <div id="teamAlist">
+        <h1>Team A</h1>
+        <p id="teamAPN1"></p>
+        <p id="teamAPN2"></p>
+        <p id="teamAPN3"></p>
+        <p id="teamAPN4"></p>
+      </div>
+
+      <div id="teamBlist">
+        <h1>Team B</h1>
+        <p id="teamBPN1"></p>
+        <p id="teamBPN2"></p>
+        <p id="teamBPN3"></p>
+        <p id="teamBPN4"></p>
+      </div>
+
+      <div id="btn_toss">
+        <button class="btn_toss" onclick="tossFnc()">
+          Toss
+        </button>
+      </div>
+    </div>
+
+    <div>
+      <p id="winnerTeamName"></p>
+    </div>
+    <div>
+      <button id="letsPlay" style="display: none;"> Let's Play</button>
+    </div>
+  </div>
+
+
+  <script src=" script.js"></script>
+</body>
+
+</html>
